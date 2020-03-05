@@ -1,3 +1,12 @@
+// Menu Toggle
+let bar = document.querySelector(".nav-bars");
+bar.addEventListener("click", ()=>{
+    let navList = document.querySelector(".nav-list");
+    if(navList.style.display == 'none'){
+        navList.style.display = "flex";
+        console.log(`click`);
+    }
+}, false)
 // Hero Slideshow
 let slideIndex = 1;
 showDivs(slideIndex);
