@@ -55,10 +55,10 @@
 					<li class="nav-item nav-item-active"><a href="#body">HOME</a></li>
 	               	<li class="nav-item"><a href="#about">ABOUT US</a></li>
 	               	<li class="nav-item"><a href="#service">SERVICES</a></li>
+					<li class="nav-item"><a href="#testimonial">TESTIMONIAL</a></li>
 	               	<li class="nav-item"><a href="#product">PRODUCTS</a></li>
-	               	<li class="nav-item"><a href="#client">CLIENTS</a></li>
-	               	<li class="nav-item"><a href="#career">CAREER</a></li>
-	               	<li class="nav-item"><a href="#footer">CONTACT US</a></li>
+	               	<li class="nav-item"><a href="#quotes">GET QUOTES</a></li>
+					<li class="nav-item"><a href="#footer">CONTACT US</a></li>
 				</div>
 				<div class="nav-bars">
 					<i class="fas fa-bars"></i>
@@ -68,7 +68,7 @@
 	</header>
 
 	<!-- Welcome Slider / Hero-section ==================================== -->
-	<section class="hero-section">
+	<section class="hero-section" id="body">
 		<div class="hero-container">
 			<div class="mySlides">
 				<img class="slides-img" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
@@ -115,9 +115,9 @@
 		</div>
 	</section>
 
-	<div id="about" style="margin: 15px;"></div>
+	<div id="about" style="margin: 25px;"></div>
 	<section class="about-us">
-		<div class="section-title">
+		<div class="section-title show-on-scroll left">
           <h2 class="title-name">ABOUT US</h2>
           <div class="border"></div>
         </div>
@@ -125,14 +125,14 @@
         <div class="sec-body">
             <p class="sec-body-text">Dwaipayana technologies is the start-up and fastest IT solution provider company head quartered in Bengaluru, India operating in autonomous solution providers for applications like Software development, Hardware designing &amp; development, Web development &amp; services, Building planning &amp; construction, Research &amp; Development on new technologies, Industrial training &amp; Internship programme.</p>
             <p class="foot-text"><strong> <em> Faster...Costs less....And never breaks!! </em> </strong></p>
-            <button class="sec-button"><a href="#footer">Reach Us</a></button>
+            <button class="sec-button show-on-scroll left"><a href="#footer">Reach Us</a></button>
         </div>
 	</section>
 
 	<!-- Services Section ==================================== -->
-
-	<section class="service-section" id="service">
-		<div class="section-title alternate">
+	<div id="service" style="margin: 25px;"></div>
+	<section class="service-section">
+		<div class="section-title alternate show-on-scroll right">
 		  	<div class="title-name">
 		  		<h2>Services</h2>
 				<p>We provide services in following domains... </p>
@@ -141,103 +141,89 @@
 		</div>
 
 		<div class="service-body">
-			<div class="service-item">
+			<div class="service-item show-on-scroll left">
 				<i class="fas fa-align-center service-icon"></i>
 				<h4>Software development</h4>
 				<p>We offer the custom software development and consulting services to help you pull off your next project ideas with less stress and cost.</p>
-				<!-- Button trigger modal -->
-				<!-- <button type="button" class="sec-button" data-toggle="modal" data-target="#myModal1">More</button> -->
 			</div>
 			<div class="service-item">
 				<i class="fas fa-briefcase service-icon"></i>
 				<h4>Web development</h4>
 				<p>A sleek website with well crafted content is essential to getting attention online. We know the ins and outs of website design and development.</p>
-				<!-- <button type="button" class="sec-button" data-toggle="modal" data-target="#myModal2">More details</button> -->
 			</div>
-			<div class="service-item">
+			<div class="service-item show-on-scroll right">
 				<i class="fas fa-cloud service-icon"></i>
 				<h4>Mobile application development</h4>
 				<p>Simplify your Mobile development, grow your user base, and monetize more effectively with us.</p>
-				<!-- Button trigger modal -->
-				<!-- <button type="button" class="sec-button" data-toggle="modal" data-target="#myModal3"> -->
-				<!-- More details -->
-				<!-- </button> -->
 			</div>
-			<div class="service-item">
+			<div class="service-item show-on-scroll left">
 				<i class="service-icon fas fa-paint-brush"></i>
 				<h4>Logo Design</h4>
 				<p>We are offering a large collection of Logo Designs. Our highly skilled professionals offer the work as per the well-defined parameters.</p>
-
-				<!-- Button trigger modal -->
-				<!-- <button type="button" class="sec-button" data-toggle="modal" data-target="#myModal4">More details</button> -->
 			</div>
 			<div class="service-item">
 				<i class="fas fa-calculator service-icon"></i>
 				<h4>Support and services</h4>
 				<p>Our company has been acknowledged in offering Help Desk Support Service to the clients. We work in close sync with the clients to provide them with accurate and efficient solution according to the current market scenario.</p>
-
-				<!-- Button trigger modal -->
-				<!-- <button type="button" class="sec-button" data-toggle="modal" data-target="#myModal5"> -->
-				<!-- More details</button> -->
 			</div>
-			<div class="service-item">
+			<div class="service-item show-on-scroll right">
 				<i class="fas fa-palette service-icon"></i>
 				<h4>UI/UX Design</h4>
 				<p>A sleek website with well crafted content is essential to getting attention online. We know the ins and outs of website design and development.</p>
-				<!-- <button type="button" class="sec-button" data-toggle="modal" data-target="#myModal2">More details</button> -->
 			</div>
 
 		</div>
 	</section>   <!-- End section -->
 
 	<section class="sec-counter">
-		<div class="section-title">
+		<div class="section-title show-on-scroll left">
           <h2 class="title-name">Our Stats so far...</h2>
           <div class="border"></div>
         </div>
 		<div class="counter-div">
-			<div class="counter">
+			<div class="counter show-on-scroll left">
 				<span class="count-no"><span id="count-software">0</span>+</span>
 				<p class="counter-title">Software</p>
 			</div>
-			<div class="counter">
+			<div class="counter show-on-scroll">
 				<span class="count-no"><span id="count-website">0</span>+</span>
 				<p class="counter-title">Websites</p>
 			</div>
-			<div class="counter">
+			<div class="counter show-on-scroll right">
 				<span class="count-no"><span id="count-app">0</span>+</span>
 				<p class="counter-title">Apps</p>
 			</div>
 		</div>
 	</section>
 
+	<div id="testimonial" style="margin: 25px;"></div>
 	<section class="testimonial-section">
 		<div class="testimonial-container">
-			<div class="section-title alternate">
+			<div class="section-title alternate show-on-scroll left">
 	          <h2 class="title-name">What they say about us?</h2>
 	          <div class="border"></div>
 	        </div>
-			<div class="testimonial">
+			<div class="testimonial show-on-scroll right">
 				<div class="testimonial-content"><span class="quote-mark">"</span>Lorem ipsum dolor sit amet, idque accommodare et vis, ius te utinam labore voluptatibus. Mei tritani dissentias no, invidunt definitiones cum id. Vis ut quidam oblique praesent, cum delectus mnesarchum ad. Ei cum vide iuvaret insolens, liber nobis dolor has at. Vis aliquip corrumpit at, nobis eligendi persequeris ut est.<span class="quote-mark">"</span></div>
 				<div class="testimonial-img"><img src="user.png" width="70" height="70" alt=""></div>
 				<div class="testimonial-name">Mark Taylor</div>
 			</div>
-			<div class="testimonial">
+			<div class="testimonial show-on-scroll right">
 				<div class="testimonial-content"><span class="quote-mark">"</span>Lorem ipsum dolor sit amet, idque accommodare et vis, ius te utinam labore voluptatibus. Mei tritani dissentias no, invidunt definitiones cum id. Vis ut quidam oblique praesent, cum delectus mnesarchum ad. Ei cum vide iuvaret insolens, liber nobis dolor has at. Vis aliquip corrumpit at, nobis eligendi persequeris ut est.<span class="quote-mark">"</span></div>
 				<div class="testimonial-img"><img src="user.png" width="70" height="70" alt=""></div>
 				<div class="testimonial-name">Virat Kohli</div>
 			</div>
-			<div class="testimonial">
+			<div class="testimonial show-on-scroll right">
 				<div class="testimonial-content"><span class="quote-mark">"</span>Lorem ipsum dolor sit amet, idque accommodare et vis, ius te utinam labore voluptatibus. Mei tritani dissentias no, invidunt definitiones cum id. Vis ut quidam oblique praesent, cum delectus mnesarchum ad. Ei cum vide iuvaret insolens, liber nobis dolor has at. Vis aliquip corrumpit at, nobis eligendi persequeris ut est.<span class="quote-mark">"</span></div>
 				<div class="testimonial-img"><img src="user.png" width="70" height="70" alt=""></div>
 				<div class="testimonial-name">Akshay Kumar</div>
 			</div>
-			<div class="testimonial">
+			<div class="testimonial show-on-scroll right">
 				<div class="testimonial-content"><span class="quote-mark">"</span>Lorem ipsum dolor sit amet, idque accommodare et vis, ius te utinam labore voluptatibus. Mei tritani dissentias no, invidunt definitiones cum id. Vis ut quidam oblique praesent, cum delectus mnesarchum ad. Ei cum vide iuvaret insolens, liber nobis dolor has at. Vis aliquip corrumpit at, nobis eligendi persequeris ut est.<span class="quote-mark">"</span></div>
 				<div class="testimonial-img"><img src="user.png" width="70" height="70" alt=""></div>
 				<div class="testimonial-name">Salman Khan</div>
 			</div>
-			<div class="testimonial">
+			<div class="testimonial show-on-scroll right">
 				<div class="testimonial-content"><span class="quote-mark">"</span>Lorem ipsum dolor sit amet, idque accommodare et vis, ius te utinam labore voluptatibus. Mei tritani dissentias no, invidunt definitiones cum id. Vis ut quidam oblique praesent, cum delectus mnesarchum ad. Ei cum vide iuvaret insolens, liber nobis dolor has at. Vis aliquip corrumpit at, nobis eligendi persequeris ut est.<span class="quote-mark">"</span></div>
 				<div class="testimonial-img"><img src="user.png" width="70" height="70" alt=""></div>
 				<div class="testimonial-name">Narendra Modi</div>
@@ -252,14 +238,15 @@
 		</div>
 	</section>
 
+	<div id="product" style="margin: 25px;"></div>
 	<section class="products-section">
-		<div class="section-title">
+		<div class="section-title show-on-scroll left">
 		  <h2 class="title-name">Our Products</h2>
 		  <p class="product-sec-p">Our firm specializes in offering an optimum quality Software and Hardware Products</p>
 		  <div class="border"></div>
 		</div>
 
-		<div class="section-title sub-title">
+		<div class="section-title sub-title show-on-scroll right">
 		  <h4 class="title-name">Software Products</h4>
 		  <div class="border"></div>
 		</div>
@@ -282,7 +269,7 @@
 			</div>
 		</div>
 
-		<div class="section-title sub-title">
+		<div class="section-title sub-title show-on-scroll left">
 		  <h4 class="title-name">Hardware Products</h4>
 		  <div class="border"></div>
 		</div>
@@ -297,17 +284,33 @@
 			</div>
 		</div>
 
-		<div class="section-title sub-title">
+		<div class="section-title sub-title show-on-scroll left">
 		  <h4 class="title-name">Mobile Apps</h4>
 		  <div class="border"></div>
 		</div>
 	</section>
 
+	<div id="quotes" style="margin: 25px;"></div>
 	<section class="sec-quotes">
-
+		<div class="section-title alternate show-on-scroll right">
+		  <h2 class="title-name">Get Quotes</h2>
+		  <p class="product-sec-p">Find out the cost of the product you want!</p>
+		  <div class="border"></div>
+		</div>
+		<form action="#">
+			<div class="get-quotes">
+				<input type="text" class="quote-item" name="name" id="name" placeholder="Your Name">
+				<input type="email" class="quote-item" name="email" id="email" placeholder="Your Email">
+				<input type="text" class="quote-item" name="text" id="title" placeholder="Title">
+				<textarea rows="6" class="quote-item" cols="20" name="description" id="description" placeholder="Description"></textarea>
+				<textarea rows="6" class="quote-item" cols="20" name="technologies" id="technologies" placeholder="Technologies To Be Used..."></textarea>
+				<button class="submit-button">SUBMIT</button>
+			</div>
+		</form>
 	</section>
+
 	<section class="sec-newsletter">
-		<div class="section-title">
+		<div class="section-title show-on-scroll left">
 		  <h2 class="title-name">Get Latest Updates</h2>
 		  <p class="product-sec-p">Subscribe to our newsletter to stay connected with us!</p>
 		  <div class="border"></div>
@@ -321,15 +324,19 @@
 		</div>
 	</section>
 
-	<footer class="footer">
+	<footer class="footer" id="footer">
 		<div class="footer-top">
-			<div class="address footer-cols">
+			<div class="address-col footer-cols">
+				<h4>ADDRESS</h4>
 				<div class="address-details">Corporate Office:</div>
 				<address class="address">
 					#6&7, Behind Raghavendra Swamy Temple, Pavamanapura, Post, 1st Layout, Talaghattapura, Bengaluru, Karnataka 560109
 				</address>
+				<span class="email-add">E-mail: <span>cvamsik5@gmail.com</span></span><br>
+				<span class="mobile-num">Mobile : +91 7337763918</span>
 			</div>
 			<div class="important-links footer-cols">
+				<h4>QUICK LINKS</h4>
 				<a href="#" class="footer-links">About</a>
 				<a href="#" class="footer-links">Privacy Policies</a>
 				<a href="#" class="footer-links">Contact Us</a>
@@ -343,12 +350,23 @@
 			</div>
 		</div>
 		<div class="footer-bottom">
+			<div class="contact-details_social">
+				<ul class="social-media footer-media">
+					<li class="social-media-item"><i class="fab fa-facebook-f"></i></li>
+					<li class="social-media-item"><i class="fab fa-linkedin"></i></li>
+					<li class="social-media-item"><i class="fab fa-twitter"></i></li>
+					<li class="social-media-item"><i class="fab fa-instagram"></i></li>
+					<li class="social-media-item"><i class="fab fa-tumblr"></i></li>
+					<li class="social-media-item"><i class="fab fa-vimeo"></i></li>
+				</ul>
+			</div>
 			<p>&copy; 2020 - ALL RIGHTS RESERVED</p>
 			<p>Designed And Developed By Dwaipayana Technologies Web Team</p>
 		</div>
 	</footer>
 
 	<script src="main.js" type="module"></script>
+	<script src="show-on-scroll.js"></script>
 	<!-- Bootsrap -->
 	<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
